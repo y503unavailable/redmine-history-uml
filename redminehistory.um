@@ -1,14 +1,26 @@
 {{plantuml(png)
   title Redmine関連年表（暫定版）
   Redmine -> Redmine : Redmine0.1.0リリース(2006/6/25)
-  Redmine -> RedminePlugin : Plugin
+note right 
+  Redmine Ver0.1.0 Feature
+  multiple users/multiple projects
+  role based access control
+  issue tracking system
+  fully customizable workflow
+  email notifications on issue creation and update
+end note
+
+  Redmine -> Redmine : カスタムフィールド対応(2006/10,Ver0.3.0)
   Redmine -> Redmine本家 : 本家サイトRedmine化(2006/12)
   activate Redmine本家
+  Redmine -> Redmine : SVNリポジトリブラウザ対応(2007/1,Ver0.4.0)
   Redmine -> Redmine : Redmine用語日本語化(2007/2)
   Redmine -> RedmineJP : RedmineJP開設(2007/10)
   activate RedmineJP
+  Redmine -> RedminePlugin : Plugin対応(2007/11,Ver0.6.0)
   Redmine -> Redmine : 問題→チケット(2008/3)
-  RedmineJP -> RedmineJP : 入門Redmine初版発売(2008/12)
+  Redmine -> Redmine : Git対応(2008/3,Ver0.7.0)
+  RedmineJP -> RedmineJP : 入門Redmine発売(2008/12)
   Redmine -> Redmine : 無制限サブプロジェクト(2010/1,Ver0.9)
   Redmine -> Redmine : バージョンの継承(2010/1,Ver0.9)
   Redmine -> Redmine : ユーザーのグループ化(2010/1,Ver0.9)
@@ -40,15 +52,19 @@
   Redmine -> Redmine : Rails4.2対応(2015/2,Ver3.0)
   ChiliProject -> ChiliProject : ChiliProject終了(2015/2)
   destroy ChiliProject
+  RedmineJP -> RedmineJP :Redmine install ansible playbook公開(2015/8)
   RedminePlugin -> RedminePlugin : Full text searchリリース(2016/04)
   RedmineTokyo -> UnofficialCooking : UnofficialCooking開始(2016/11)
   activate UnofficialCooking
   Redmine本家 -> Redmine本家 : vote count list公開(2017/1)
   RedmineJP -> RedmineMastdon : RedmineMastdon開始(2017)
   activate RedmineMastdon
+  RedmineJP ->   RedmineJP : RedmineGuide MkDocs化(2017/8)
   Redmine -> Redmine : 前田さんコミッタ(2017/11)
   Redmine -> RedmineDiscord : RedmineDiscord開始(2018/7)
   activate RedmineDiscord
+  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加登録開始(第15回,2018/11)
+  RedmineTokyo -> RedmineTokyo : 勉強会ビデオLT実施(第15回,2018/11)
   Redmine -> Redmine : Redmine4.0リリース(2018/12)
   Redmine -> Redmine : Rails5対応(2018/12,Ver4.0)
 }}
