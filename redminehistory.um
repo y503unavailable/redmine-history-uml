@@ -1,0 +1,54 @@
+{{plantuml(png)
+  title Redmine関連年表（暫定版）
+  Redmine -> Redmine : Redmine0.1.0リリース(2006/6/25)
+  Redmine -> RedminePlugin : Plugin
+  Redmine -> Redmine本家 : 本家サイトRedmine化(2006/12)
+  activate Redmine本家
+  Redmine -> Redmine : Redmine用語日本語化(2007/2)
+  Redmine -> RedmineJP : RedmineJP開設(2007/10)
+  activate RedmineJP
+  Redmine -> Redmine : 問題→チケット(2008/3)
+  RedmineJP -> RedmineJP : 入門Redmine初版発売(2008/12)
+  Redmine -> Redmine : 無制限サブプロジェクト(2010/1,Ver0.9)
+  Redmine -> Redmine : バージョンの継承(2010/1,Ver0.9)
+  Redmine -> Redmine : ユーザーのグループ化(2010/1,Ver0.9)
+  Redmine -> Redmine : ロールベースの権限管理(2010/1,Ver0.9)
+  Redmine -> Redmine : Redmine1.0リリース(2010/7)
+  Redmine -> Redmine : チケットの親子関係(2010/7,Ver1.0)
+  RedminePlugin -> RedminePlugin : Wiki Extensionsリリース(2010/11)
+  RedminePlugin -> RedminePlugin : worktimeリリース(2010/11)
+  Redmine -> ChiliProject : ChiliProject分裂(2011/1)
+  activate ChiliProject
+  Redmine -> Redmine : まるやまさんコミッタ(2011年)
+  Redmine -> RedmineOsaka : RedmineOsaka開始(2011/7)
+  activate RedmineOsaka
+  RedmineOsaka -> RedmineOsaka : RxTstudy＃1(2011/7)
+  Redmine -> RedmineTokyo : RedmineTokyo開始(2011/9)
+  activate RedmineTokyo
+  RedmineTokyo -> RedmineTokyo : しながわRedmine＃1(2011/9)
+  RedminePlugin -> RedminePlugin : bannerリリース(2012/1)
+  RedminePlugin -> RedminePlugin : issue_templateリリース(2012/4)
+  Redmine -> Redmine : プロジェクトの複数レポジトリ対応(2012/4,Ver1.4)
+  Redmine -> Redmine : Redmine2.0リリース(2012/5)
+  Redmine -> Redmine : Rails3.2対応(2012/5,Ver2.0)
+  RedmineTokyo -> RedmineTokyo : Redmine超入門発売(2014/1)
+  Redmine -> Redmine : Markdown対応(2014/3,Ver2.5)
+  RedminePlugin -> RedminePlugin : view_customizeリリース(2014/6)
+  Redmine -> Redmine : 前田さんコントリビュータ(2014年)
+  RedmineTokyo -> RedmineTokyo : しながわRedmine→Redmine.Tokyo(2014/11)
+  Redmine -> Redmine : Redmine3.0リリース(2015/2)
+  Redmine -> Redmine : Rails4.2対応(2015/2,Ver3.0)
+  ChiliProject -> ChiliProject : ChiliProject終了(2015/2)
+  destroy ChiliProject
+  RedminePlugin -> RedminePlugin : Full text searchリリース(2016/04)
+  RedmineTokyo -> UnofficialCooking : UnofficialCooking開始(2016/11)
+  activate UnofficialCooking
+  Redmine本家 -> Redmine本家 : vote count list公開(2017/1)
+  RedmineJP -> RedmineMastdon : RedmineMastdon開始(2017)
+  activate RedmineMastdon
+  Redmine -> Redmine : 前田さんコミッタ(2017/11)
+  Redmine -> RedmineDiscord : RedmineDiscord開始(2018/7)
+  activate RedmineDiscord
+  Redmine -> Redmine : Redmine4.0リリース(2018/12)
+  Redmine -> Redmine : Rails5対応(2018/12,Ver4.0)
+}}
