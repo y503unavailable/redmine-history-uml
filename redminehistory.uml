@@ -67,4 +67,11 @@ end note
   RedmineTokyo -> RedmineTokyo : 勉強会ビデオLT実施(第15回,2018/11)
   Redmine -> Redmine : Redmine4.0リリース(2018/12)
   Redmine -> Redmine : Rails5対応(2018/12,Ver4.0)
+  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加者間グループディスカッション(第16回,2019/5)(Discord利用)
+  RedmineTokyo -> RedmineTokyo : 勉強会リモートLT実施(第16回,2019/5)(Skype利用)
+  RedminePlugin -> RedminePlugin : Message Customize リリース(2019/5)
+  activate RedmineSlack
+  Redmine -> RedmineSlack : RedmineSlack開設(2019/8)
+  UnofficialCooking ->  UnofficialCooking : unofficial-redmine.org ドメイン取得(2019/9)
+  Redmine -> Redmine : Redmine4.1リリース(2019/??見込)
 }}
