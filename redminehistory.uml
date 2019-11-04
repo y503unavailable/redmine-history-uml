@@ -13,6 +13,7 @@ end note
   Redmine -> Redmine : カスタムフィールド対応(2006/10,Ver0.3.0)
   Redmine -> Redmine本家 : 本家サイトRedmine化(2006/12)
   activate Redmine本家
+  activate Redmica 
   Redmine -> Redmine : SVNリポジトリブラウザ対応(2007/1,Ver0.4.0)
   Redmine -> Redmine : Redmine用語日本語化(2007/2)
   Redmine -> RedmineJP : RedmineJP開設(2007/10)
@@ -72,6 +73,8 @@ end note
   RedminePlugin -> RedminePlugin : Message Customize リリース(2019/5)
   activate RedmineSlack
   Redmine -> RedmineSlack : RedmineSlack開設(2019/8)
-  UnofficialCooking ->  UnofficialCooking : unofficial-redmine.org ドメイン取得(2019/9)
+  UnofficialCooking -> UnofficialCooking : unofficial-redmine.org ドメイン取得(2019/9)
+  UnofficialCooking -> UnofficialCooking : Unofficial Redmine Cooking (Vol.0) Kindle本創刊 (2019/11) 
+  Redmine -> Redmica : Redmica1.0リリース(2019/11/2) 
   Redmine -> Redmine : Redmine4.1リリース(2019/??見込)
 }}
