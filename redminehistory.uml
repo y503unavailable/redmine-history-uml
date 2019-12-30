@@ -76,5 +76,5 @@ end note
   UnofficialCooking -> UnofficialCooking : unofficial-redmine.org ドメイン取得(2019/9)
   UnofficialCooking -> UnofficialCooking : Unofficial Redmine Cooking (Vol.0) Kindle本創刊 (2019/11) 
   Redmine -> Redmica : Redmica1.0リリース(2019/11/2) 
-  Redmine -> Redmine : Redmine4.1リリース(2019/??見込)
+  Redmine -> Redmine : Redmine4.1リリース(2019/12/20)
 }}
