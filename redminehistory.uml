@@ -77,6 +77,8 @@ note right
   https://www.redmine.org/boards/1/topics/51899
   GitHub Redmineリポジトリリスト
   http://demo1.unofficial-redmine.org/redmine/projects/github-redmine/issues
+  Unofficial Redmine Youtube Channel
+  https://www.youtube.com/channel/UCdmiZX7ZY_a3xXEe7rwk0ow
 end note
   Redmine本家 -> Redmine本家 : vote count list公開(2017/1)
   RedmineJP -> RedmineMastdon : RedmineMastdon開始(2017)
@@ -105,6 +107,9 @@ end note
   RedmineMastdon -> RedmineMastdon : RedmineMastdon終了
   destroy RedmineMastdon
   RedmineTokyo -> RedmineTokyo : 勉強会オンライン開催(第18回,2020/5/23)\n(Zoom+YoutubeLive利用)
+  RedmineJP -> RedmineJP : Redmineヘッドライン開始(2020/5)
+  UnofficialCooking -> UnofficialCooking : Youtube Channel開設(2020/6)
+  RedmineOsaka -> RedmineOsaka : 勉強会オンライン開催(2020/7)
   Redmine -> RedmineJapan : Redmine-Japan開催予定(2020/9/18) 
 note right
   redmine-japan
