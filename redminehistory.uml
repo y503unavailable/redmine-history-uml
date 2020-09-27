@@ -1,5 +1,5 @@
-{{plantuml(png)
-  title Redmine関連年表（暫定版 2020/5/1  https://github.com/y503unavailable/redmine-history-uml ）
+{{plantuml(svg)
+  title Redmine関連年表（暫定版 2020/9/27  https://github.com/y503unavailable/redmine-history-uml ）
   Redmine -> Redmine : Redmine0.1.0リリース(2006/6/25)
 
 note right 
@@ -10,39 +10,40 @@ note right
   fully customizable workflow
   email notifications on issue creation and update
 end note
-  Redmine -> Redmine : カスタムフィールド対応(2006/10,Ver0.3.0)
+  Redmine -> Redmine : カスタムフィールド対応\n(2006/10,Ver0.3.0)
   Redmine -> Redmine本家 : 本家サイトRedmine化(2006/12)
   activate Redmine本家
   activate Redmica 
-  Redmine -> Redmine : SVNリポジトリブラウザ対応(2007/1,Ver0.4.0)
+  Redmine -> Redmine : SVNリポジトリブラウザ対応\n(2007/1,Ver0.4.0)
   Redmine -> Redmine : Redmine用語日本語化(2007/2)
   Redmine -> RedmineJP : RedmineJP開設(2007/10)
   activate RedmineJP
   Redmine -> RedminePlugin : Plugin対応(2007/11,Ver0.6.0)
   Redmine -> Redmine : 問題→チケット(2008/3)
   Redmine -> Redmine : Git対応(2008/3,Ver0.7.0)
-  RedmineJP -> RedmineJP : 入門Redmine発売(2008/12)
+  RedmineJP -> RedmineJP : 入門Redmine発売\n(2008/12)
   Redmine -> Redmine : 無制限サブプロジェクト(2010/1,Ver0.9)
   Redmine -> Redmine : バージョンの継承(2010/1,Ver0.9)
   Redmine -> Redmine : ユーザーのグループ化(2010/1,Ver0.9)
   Redmine -> Redmine : ロールベースの権限管理(2010/1,Ver0.9)
   Redmine -> Redmine : Redmine1.0リリース(2010/7)
   Redmine -> Redmine : チケットの親子関係(2010/7,Ver1.0)
-  RedminePlugin -> RedminePlugin : Wiki Extensionsリリース(2010/11)
-  RedminePlugin -> RedminePlugin : worktimeリリース(2010/11)
+  RedminePlugin -> RedminePlugin : Wiki Extensions\nリリース(2010/11)
+  RedminePlugin -> RedminePlugin : worktime\nリリース(2010/11)
   Redmine -> ChiliProject : ChiliProject分裂(2011/1)
   activate ChiliProject
   Redmine -> Redmine : まるやまさんコミッタ(2011年)
   Redmine -> RedmineOsaka : RedmineOsaka開始(2011/7)
   activate RedmineOsaka
-  RedmineOsaka -> RedmineOsaka : RxTstudy＃1(2011/7)
+  RedmineOsaka -> RedmineOsaka : RxTstudy＃1\n(2011/7)
 note right 
   Redmine.Osaka関連
   https://www.facebook.com/RedmineOsaka/
 end note
-  Redmine -> RedmineTokyo : RedmineTokyo開始(2011/9)
+  Redmine -> RedmineTokyo [[https://redmine.tokyo]] : RedmineTokyo開始\n(2011/9)
   activate RedmineTokyo
-  RedmineTokyo -> RedmineTokyo : しながわRedmine＃1(2011/9)
+  activate RedmineJapan
+  RedmineTokyo -> RedmineTokyo : しながわRedmine＃1\n(2011/9)
 note right 
   Redmine.Tokyo関連
   https://redmine.tokyo
@@ -51,69 +52,73 @@ note right
   redmine.tokyo Youtubeチャンネル
   https://www.youtube.com/user/redmineT/
 end note
-  RedminePlugin -> RedminePlugin : bannerリリース(2012/1)
-  RedminePlugin -> RedminePlugin : issue_templateリリース(2012/4)
-  Redmine -> Redmine : プロジェクトの複数レポジトリ対応(2012/4,Ver1.4)
+  RedminePlugin -> RedminePlugin : banner\nリリース(2012/1)
+  RedminePlugin -> RedminePlugin : issue_template\nリリース(2012/4)
+  Redmine -> Redmine : プロジェクトの複数リポジトリ対応\n(2012/4,Ver1.4)
   Redmine -> Redmine : Redmine2.0リリース(2012/5)
   Redmine -> Redmine : Rails3.2対応(2012/5,Ver2.0)
-  RedmineTokyo -> RedmineTokyo : Redmine超入門発売(2014/1)
+  RedmineTokyo -> RedmineTokyo : Redmine超入門発売\n(2014/1)
   Redmine -> Redmine : Markdown対応(2014/3,Ver2.5)
-  RedminePlugin -> RedminePlugin : view_customizeリリース(2014/6)
+  RedminePlugin -> RedminePlugin : view_customize\nリリース(2014/6)
   Redmine -> Redmine : 前田さんコントリビュータ(2014年)
-  RedmineTokyo -> RedmineTokyo : しながわRedmine→Redmine.Tokyo(2014/11)
+  RedmineTokyo -> RedmineTokyo : しながわRedmine\n→Redmine.Tokyo(2014/11)
   Redmine -> Redmine : Redmine3.0リリース(2015/2)
   Redmine -> Redmine : Rails4.2対応(2015/2,Ver3.0)
   ChiliProject -> ChiliProject : ChiliProject終了\n(2015/2)
   destroy ChiliProject
   RedmineJP -> RedmineJP :Redmine install ansible \n playbook公開(2015/8)
-  RedminePlugin -> RedminePlugin : Full text searchリリース(2016/04)
-  RedmineTokyo -> UnofficialCooking : UnofficialCooking開始(2016/11)
+  RedminePlugin -> RedminePlugin : Full text search\nリリース(2016/04)
+  RedmineTokyo -> UnofficialCooking : UnofficialCooking開始\n(2016/11)
   activate UnofficialCooking
 note right
-  unofficialcooking関連 
+[[https://redmine.tokyo/projects/unofficialcooking unofficialcooking関連 ]]
   https://redmine.tokyo/projects/unofficialcooking
   http://demo1.unofficial-redmine.org/redmine
-  Redmine.org Vote Count List
-  https://www.redmine.org/boards/1/topics/51899
-  GitHub Redmineリポジトリリスト
+[[http://demo1.unofficial-redmine.org/redmine unofficial-redmine.org]]
+[[ http://demo1.unofficial-redmine.org/redmine/projects/redmineorg-copy/issues?query_id=5 Redmine vote count list]][[https://www.redmine.org/boards/1/topics/51899 Redmine.org版]]
+[[http://demo1.unofficial-redmine.org/redmine/projects/github-redmine/issues GitHub Redmineリポジトリリスト]]
   http://demo1.unofficial-redmine.org/redmine/projects/github-redmine/issues
-  Unofficial Redmine Youtube Channel
+[[https://www.amazon.co.jp/dp/B07ZG13K9Z Unofficial Redmine Cooking Vol.0: 標準のRedmineで不十分な人の道標 Kindle版]]
+[[https://www.youtube.com/channel/UCdmiZX7ZY_a3xXEe7rwk0ow Unofficial Redmine YouTube Channel]]
   https://www.youtube.com/channel/UCdmiZX7ZY_a3xXEe7rwk0ow
 end note
-  Redmine本家 -> Redmine本家 : vote count list公開(2017/1)
-  RedmineJP -> RedmineMastdon : RedmineMastdon開始(2017)
+  Redmine本家 -> Redmine本家 : [[https://www.redmine.org/boards/1/topics/51899 vote count list公開\n(2017/1)]]
+  RedmineJP -> RedmineMastdon : RedmineMastdon開始\n(2017)
   activate RedmineMastdon
-  RedmineJP ->   RedmineJP : RedmineGuide MkDocs化(2017/8)
+  RedmineJP ->   RedmineJP : RedmineGuide MkDocs化\n(2017/8)
+  UnofficialCooking -> UnofficialCooking : [[https://github.com/y503unavailable/redmine unofficial版Redmine開始\n(2017/8)]]
   Redmine -> Redmine : 前田さんコミッタ(2017/11)
   Redmine -> RedmineDiscord : RedmineDiscord開始(2018/7)
   activate RedmineDiscord
-  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加登録開始(第15回,2018/11)
-  RedmineTokyo -> RedmineTokyo : 勉強会ビデオLT実施(第15回,2018/11)
+  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加登録開始\n(第15回,2018/11)
+  RedmineTokyo -> RedmineTokyo : 勉強会ビデオLT実施\n(第15回,2018/11)
+  UnofficialCooking -> UnofficialCooking : [[http://demo1.unofficial-redmine.org/redmine/projects/redmineorg-copy/issues?query_id=5 Redmine Vote Count List\nUnofficial版公開]](2018/11)
   Redmine -> Redmine : Redmine4.0リリース(2018/12)
   Redmine -> Redmine : Rails5対応(2018/12,Ver4.0)
-  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加者間グループディスカッション \n(第16回,2019/5)(Discord利用)
-  RedmineTokyo -> RedmineTokyo : 勉強会リモートLT実施(第16回,2019/5)\n(Skype利用)
-  RedminePlugin -> RedminePlugin : Message Customize リリース(2019/5)
+  RedmineTokyo -> RedmineTokyo : 勉強会リモート参加者間\nグループディスカッション \n(第16回,2019/5)(Discord利用)
+  RedmineTokyo -> RedmineTokyo : 勉強会リモートLT実施\n(第16回,2019/5)(Skype利用)
+  RedminePlugin -> RedminePlugin : Message Customize \nリリース(2019/5)
   activate RedmineSlack
   Redmine -> RedmineSlack : RedmineSlack開設(2019/8)
   UnofficialCooking -> UnofficialCooking : unofficial-redmine.org \nドメイン取得(2019/9)
-  UnofficialCooking -> UnofficialCooking : Unofficial Redmine Cooking (Vol.0)\n Kindle本創刊 (2019/11) 
+  UnofficialCooking -> UnofficialCooking : [[https://www.youtube.com/channel/UCdmiZX7ZY_a3xXEe7rwk0ow Unofficial Redmine Cooking (Vol.0)\n Kindle本創刊]] (2019/11) 
   Redmine -> Redmica : Redmica1.0リリース(2019/11/2) 
   Redmine -> Redmine : Redmine4.1リリース(2019/12/20)
-  UnofficialCooking -> UnofficialCooking : GitHub上Redmineリポジトリ\nリスト公開 (2020/1) 
-  activate RedmineJapan
+  UnofficialCooking -> UnofficialCooking : [[http://demo1.unofficial-redmine.org/redmine/projects/github-redmine/issues GitHub上Redmineリポジトリ\nリスト公開 (2020/1) ]]
   RedmineDiscord -> RedmineDiscord : RedmineDiscord終了
   destroy RedmineDiscord
   RedmineMastdon -> RedmineMastdon : RedmineMastdon終了
   destroy RedmineMastdon
-  RedmineTokyo -> RedmineTokyo : 勉強会オンライン開催(第18回,2020/5/23)\n(Zoom+YoutubeLive利用)
-  RedmineJP -> RedmineJP : Redmineヘッドライン開始(2020/5)
-  UnofficialCooking -> UnofficialCooking : Youtube Channel開設(2020/6)
-  RedmineOsaka -> RedmineOsaka : 勉強会オンライン開催(2020/7)
-  Redmine -> RedmineJapan : Redmine-Japan開催予定(2020/9/18) 
+  RedmineTokyo -> RedmineTokyo : 勉強会オンライン開催\n(第18回,2020/5/23)\n(Zoom+YoutubeLive利用)
+  RedmineJP -> RedmineJP[[https://headline.redmine.jp/]] : Redmineヘッドライン開始\n(2020/5)
+  UnofficialCooking -> UnofficialCooking[[https://www.youtube.com/channel/UCdmiZX7ZY_a3xXEe7rwk0ow]] : Youtube Channel開設(2020/6)
+  RedmineOsaka -> RedmineOsaka : 勉強会オンライン開催\n(2020/7)
+  Redmine -> RedmineFreeSalon[[https://redmine-freesalon.slack.com]] : RedmineFreeSalon開始(2020/9/18)
+  Redmine -> RedmineJapan [[https://redmine-japan.org/]] : Redmine-Japan開催(2020/9/18) \n（Remo利用）
+  RedmineTokyo -> RedmineTokyo : 勉強会オンライン\nグループディスカッション\n(第19回,2020/11予定)\n(Zoom利用)
 note right
   redmine-japan
-  http://www.redmine-japan.org/
+  [[http://www.redmine-japan.org/ redmine-japan ]]
 end note
 
 }}
